@@ -13,4 +13,3 @@ for disk in psutil.disk_partitions():
         print("Total: %d GB" % (total // (2**30)))
         print("Free: %d GB" % (free // (2**30)))
         print("Used: %d GB" % (used // (2**30)) + "\n")
-print( psutil.net_if_stats().master)
